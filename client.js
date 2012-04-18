@@ -1,5 +1,6 @@
 var client = require("socket.io-client");
 var host = "http://176.34.100.20:3000";
+host = "http://localhost:3000";
 var fs = require('fs');
 var nodeLog = fs.createWriteStream(__dirname+'/node.log',{flags:'a',mode:0666, encoding:'encoding'});
 
