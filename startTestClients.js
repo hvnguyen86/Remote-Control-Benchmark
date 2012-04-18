@@ -11,6 +11,8 @@ for(var i = 0;i<clients;i++){
 	exec("node client.js",function(err,stdout,sterr){
 	
 	});
+	
 }
 
+console.log(clients+"websocket-clients started");
 
